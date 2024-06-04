@@ -30,7 +30,7 @@ class ProductForm(StyleFormMixin, forms.ModelForm):
 class ModeratorProductForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Product
-        fields = ('category', 'description', 'in_published')
+        fields = ('category', 'description', 'is_published')
 
 
 
