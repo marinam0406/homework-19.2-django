@@ -33,7 +33,6 @@ class ModeratorProductForm(StyleFormMixin, forms.ModelForm):
         fields = ('category', 'description', 'is_published')
 
 
-
 class VersionForm(StyleFormMixin, forms.ModelForm):
     class Meta:
         model = Version
